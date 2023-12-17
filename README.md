@@ -1,6 +1,6 @@
 # CobraSender
 
-![alt text](https://iili.io/HGIswUF.png)
+![alt text](https://iili.io/JnHoQ8F.png)
 
 ![alt text](https://iili.io/JupXMFf.png)
 
