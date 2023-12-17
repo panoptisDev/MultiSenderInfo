@@ -31,21 +31,21 @@ provide, the quicker we can proceed with the listing.
 
 For a chain listing request, please provide the ChainId and the RPC URL. For instance, if you're listing 
 the Fantom mainnet, which has a native cryptocurrency, your submission should look like this:
-
+```
 {
     "250": "https://rpcapi.fantom.network" // Fantom mainnet "FTM"
 }
-
+```
 For a token listing request, we need the chain ID, the token address, the token symbol, and the token name.
 The first address in the list is the native cryptocurrency for that chain ID. Here's an example:
-
+```
 '137': [
   '0x000000000000000000000000000000000000beef', // MATIC
   '0x50dDe7cD84B2C6f365109a1131Ccd557DbACCaa2', // LUKE / LukeToken
   '0x01431c445cC454C72DFD3415aB52065a74A0ecAa', // USDT / usdt
   '0x4d89d310c5E3fEFB95B5E9f2F941BC13B6C6C78A'  // SCRL / Scroll
 ]
-
+```
 If your chain isn't already listed in the Multisender app, we'll need to create two contracts. 
 If you're using a testnet, it would be helpful if you could send some gas tokens to the developer's 
 wallet address to cover gas costs.
